@@ -10,8 +10,13 @@ venv/
 .ipynb_checkpoints/
 *.nbconvert.ipynb
 
-data/
+data/**
+!data/queries_french_para_eval.json
+!data/queries_french_para_eval_values.json
+!data/base_films_500.csv
+
 !data/.gitkeep
+
 
 # Sécurité : gros fichiers à la racine (au cas où)
 *.csv
