@@ -1,0 +1,27 @@
+# Python / env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+data/
+!data/.gitkeep
+
+# Sécurité : gros fichiers à la racine (au cas où)
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.zip
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
